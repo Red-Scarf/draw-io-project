@@ -11,7 +11,7 @@
           <mxGeometry x="1050" y="2040" width="530" height="280" as="geometry" />
         </mxCell>
         <mxCell id="mDeXvVl9f_Hlldk8GErR-2276" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;fontSize=24;fontColor=#23445D;align=center;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="50" y="2070" width="690" height="510" as="geometry" />
+          <mxGeometry x="50" y="2070" width="420" height="180" as="geometry" />
         </mxCell>
         <mxCell id="mDeXvVl9f_Hlldk8GErR-2259" value="运营商" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=20;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-150" y="2090" width="106" height="70" as="geometry" />
@@ -27,32 +27,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mDeXvVl9f_Hlldk8GErR-2291" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mDeXvVl9f_Hlldk8GErR-2269" target="mDeXvVl9f_Hlldk8GErR-2278" edge="1">
+        <mxCell id="mDeXvVl9f_Hlldk8GErR-2291" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mDeXvVl9f_Hlldk8GErR-2269" target="mDeXvVl9f_Hlldk8GErR-2278" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mDeXvVl9f_Hlldk8GErR-2269" value="路由器" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="mDeXvVl9f_Hlldk8GErR-2269" value="光猫" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="78" y="2110.5" width="107" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mDeXvVl9f_Hlldk8GErR-2275" value="1楼" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="870" y="2510" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mDeXvVl9f_Hlldk8GErR-2277" value="主机房" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="78" y="2510" width="71" height="30" as="geometry" />
+          <mxGeometry x="210" y="2200" width="71" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mDeXvVl9f_Hlldk8GErR-2278" value="主交换机" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="82.5" y="2280" width="98" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mDeXvVl9f_Hlldk8GErR-2290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mDeXvVl9f_Hlldk8GErR-2281" target="mDeXvVl9f_Hlldk8GErR-2283" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mDeXvVl9f_Hlldk8GErR-2281" value="监控主机" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="278" y="2110.5" width="81" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="mDeXvVl9f_Hlldk8GErR-2283" value="监控交换机" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="450" y="2126" width="98" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mDeXvVl9f_Hlldk8GErR-2289" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mDeXvVl9f_Hlldk8GErR-2278" target="mDeXvVl9f_Hlldk8GErR-2281" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="346" y="2115.5" width="98" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_VDjE2swVjRWtWXzK6bu-2257" value="主交换机" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1100" y="2126" width="98" height="50" as="geometry" />
@@ -101,7 +89,7 @@
         <mxCell id="_VDjE2swVjRWtWXzK6bu-2262" value="mesh子路由" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1400" y="2060" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_VDjE2swVjRWtWXzK6bu-2265" value="有线mesh组网 5G网提供手机等设备 2.5G网络提供智能家居" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_VDjE2swVjRWtWXzK6bu-2265" value="有线mesh组网 5G网提供手机等设备 2.5G网络提供智能家居&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;如果子路由不多的话，可以不用交换机&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1080" y="2280" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_VDjE2swVjRWtWXzK6bu-2268" value="中枢网关" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png;fontSize=20;" vertex="1" parent="1">
